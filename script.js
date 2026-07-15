@@ -386,9 +386,14 @@ fetch("content.json")
     CONTENT = data;
     renderAll();
 
-    // Confetti welcome burst from the top of the hero
+    // Confetti welcome burst — from the A3 badge, same origin as clicking it
     if (!reduceMotion) {
-      setTimeout(() => confetti.fire(window.innerWidth / 2, window.innerHeight * 0.28, 140), 350);
+      setTimeout(() => {
+        const b = document.getElementById("a3-badge");
+        if (!b) return;
+        const r = b.getBoundingClientRect();
+        confetti.fire(r.left + r.width / 2, r.top + r.height / 2, 140);
+      }, 350);
     }
 
     // Fade-in reveal on scroll
