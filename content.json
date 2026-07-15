@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "kicker": "Agility Klub Třebíč · fena · nar. 30. 1. 2021",
+    "name": "Giginka",
+    "badge_line1": "A3",
+    "badge_line2": "CHAMPIONKA",
+    "subtitle": "Ahoj. Ano, mám vlastní web. Protože si ho zasloužím.",
+    "image": "images/hero-run.jpg"
+  },
+  "marquee": [
+    "A3 CHAMPIONKA",
+    "PROFESIONÁLNÍ MODELKA",
+    "HLAVNĚ PRINCEZNA",
+    "PAPAT",
+    "NEJHEZČÍ NA CVIČÁKU",
+    "VEDOUCÍ SMEČKY",
+    "OBČAS DÉMON"
+  ],
+  "vizitka": {
+    "photo": "images/forest-flowers.jpg",
+    "photo_alt": "Giginka pózuje mezi lučními květinami",
+    "stamp": "OVĚŘENÁ PRINCEZNA",
+    "rows": [
+      { "label": "Jméno", "value": "Ginny z Tlapek na cestě", "note": "ale říkej mi Giginka (nebo Gigi)" },
+      { "label": "Plemeno", "value": "kříženec", "note": "ale hlavně princezna" },
+      { "label": "Narozena", "value": "30. 1. 2021", "note": "Vodnářka, prý to sedí" },
+      { "label": "Povolání", "value": "modelka & agility šampionka", "note": "na plný úvazek" },
+      { "label": "Titul", "value": "A3 championka", "note": "nejvyšší liga, žádná sranda" },
+      { "label": "Superschopnost", "value": "být na každé fotce", "note": "a vždycky v ostření" },
+      { "label": "Oblíbená činnost", "value": "papat", "note": "a pak si dát šlofíka" },
+      { "label": "Domovský klub", "value": "Agility Klub Třebíč", "note": "moje smečka" }
+    ]
+  },
+  "timeline": [
+    { "tag": "2021 · Den první", "image": "images/puppy-bed.jpg", "alt": "Štěně Giginka v pelíšku", "caption": "Přivezli si mě domů. Hned jsem si našla pelíšek a chtěla papat." },
+    { "tag": "Štěně", "image": "images/puppy-outdoor.jpg", "alt": "Malá Giginka venku", "caption": "Rostla jsem do krásy. Šlo to úplně samo." },
+    { "tag": "Cvičák", "image": "images/dogwalk.jpg", "alt": "Giginka na agility lávce", "caption": "Objevila jsem agility. Nejhezčí pejsek na cvičáku, to dá rozum." },
+    { "tag": "První závody", "image": "images/hurdle.jpg", "alt": "Giginka skáče přes překážku", "caption": "Začala jsem závodit. Překážky? Rozcvička." },
+    { "tag": "★ Vrchol ★", "image": "images/ball-catch.jpg", "alt": "Giginka slaví s míčkem", "caption": "A pak… A3 CHAMPIONKA. Věděla jsem to od začátku.", "climax": true }
+  ],
+  "personas": [
+    { "role": "Princezna", "sticker": "crown", "image": "images/flower-crown.jpg", "alt": "Giginka s korunkou z pampelišek", "line": "Korunku nosím i mimo soutěž. Prostě mi to sluší." },
+    { "role": "Superpes", "sticker": "cape", "image": "images/leap-ball.jpg", "alt": "Giginka ve výskoku za míčkem", "line": "Ve vzduchu. Jako správný superhrdina. POW!" },
+    { "role": "Démon", "sticker": "grr", "image": "images/demon-grin.jpg", "alt": "Giginka se ďábelským úšklebkem", "line": "Občas mě posedne démon. Kdo mi dal ten míček?" },
+    { "role": "Vedoucí smečky", "sticker": "sparkles", "image": "images/pack.jpg", "object_position": "80% 50%", "alt": "Giginka v čele smečky psů", "line": "Vedu smečku. Ten nalevo je můj podřízený." },
+    { "role": "Hlídač kempu", "sticker": "star", "image": "images/camp.jpg", "alt": "Giginka hlídá u kempu", "line": "Hlídám kemp. Musím ležet na trávě — zbourali mi stan." },
+    { "role": "Bohyně jezera", "sticker": "sparkles", "image": "images/lake.jpg", "alt": "Giginka majestátně u jezera", "line": "Občas jsem prostě majestátní. Nedá se nic dělat." }
+  ],
+  "palmares": {
+    "hero": {
+      "title": "A3 CHAMPIONKA",
+      "desc": "Agility, 3. výkonnostní třída — nejvyšší liga. Odemčeno."
+    },
+    "items": [
+      { "icon": "shield", "title": "Agility Klub Třebíč", "desc": "Domovský tým a moje věrná smečka." },
+      { "icon": "passport", "alt": "Průkaz Giginky", "title": "Doklady v pořádku", "desc": "Ginny z Tlapek na cestě. Zcela oficiálně." },
+      { "icon": "bolt", "title": "Rychlá jako blesk", "desc": "Na parkuru mě jen tak někdo nechytí." }
+    ]
+  },
+  "gallery": [
+    { "src": "images/hero-run.jpg", "caption": "Plnou rychlostí" },
+    { "src": "images/lake.jpg", "caption": "Bohyně jezera" },
+    { "src": "images/flower-crown.jpg", "caption": "Korunka sedí" },
+    { "src": "images/pack.jpg", "caption": "Vedu smečku" },
+    { "src": "images/forest-flowers.jpg", "caption": "Mezi kytkami" },
+    { "src": "images/ball-catch.jpg", "caption": "Chycený míček" },
+    { "src": "images/camp.jpg", "caption": "Služba u kempu" },
+    { "src": "images/hurdle.jpg", "caption": "Přes překážku" },
+    { "src": "images/dogwalk.jpg", "caption": "Nejhezčí na cvičáku" },
+    { "src": "images/leap-ball.jpg", "caption": "Ve vzduchu" },
+    { "src": "images/demon-grin.jpg", "caption": "Občas démon" }
+  ],
+  "eastereggs": [
+    "Věděl(a) jsi, že jsem nejrychlejší v Třebíči? Teď už jo.",
+    "Ano, ta korunka je pravá.",
+    "Papat. To je moje krédo.",
+    "Ten parkur? Jenom rozcvička.",
+    "Já neběhám. Já vládnu.",
+    "Kdo je hodná holka? Já. Vždycky já.",
+    "Pohlaď mě. Zasloužím si to.",
+    "Ještě jednou klikni. Mně to nevadí, jsem hvězda."
+  ],
+  "footer": "Konec prohlídky. Teď mě můžeš jít pohladit."
+}

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giginka — A3 championka</title>
+<meta name="description" content="Giginka: kříženec, profesionální modelka a čerstvá A3 agility championka. Ano, mám vlastní web. Protože si ho zasloužím.">
+<link rel="canonical" href="https://giginka.cz/">
+
+<meta property="og:title" content="Giginka — A3 championka">
+<meta property="og:description" content="Kříženec, modelka a čerstvá A3 agility championka. Ano, mám vlastní web.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://giginka.cz/">
+<meta property="og:image" content="https://giginka.cz/images/hero-run.jpg">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="1067">
+<meta property="og:image:alt" content="Giginka běží radostně přes trávník">
+<meta property="og:locale" content="cs_CZ">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Giginka — A3 championka">
+<meta name="twitter:description" content="Kříženec, modelka a čerstvá A3 agility championka.">
+<meta name="twitter:image" content="https://giginka.cz/images/hero-run.jpg">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='%23E08A3C'%3E%3Cellipse cx='16' cy='21' rx='7.5' ry='6'/%3E%3Ccircle cx='7.5' cy='13' r='3.1'/%3E%3Ccircle cx='13.5' cy='8.5' r='3.1'/%3E%3Ccircle cx='18.5' cy='8.5' r='3.1'/%3E%3Ccircle cx='24.5' cy='13' r='3.1'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Party marquee -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marquee-track"></div>
+</div>
+
+<!-- Header -->
+<header class="header" id="top">
+  <a class="brand" href="#top">
+    <span class="brand-paw" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="26" height="26"><g fill="currentColor"><ellipse cx="16" cy="21" rx="7.5" ry="6"/><circle cx="7.5" cy="13" r="3.1"/><circle cx="13.5" cy="8.5" r="3.1"/><circle cx="18.5" cy="8.5" r="3.1"/><circle cx="24.5" cy="13" r="3.1"/></g></svg>
+    </span>
+    <span class="brand-name">Giginka</span>
+  </a>
+  <nav class="nav" aria-label="Sekce">
+    <a href="#vizitka">Kdo jsem</a>
+    <a href="#pribeh">Můj příběh</a>
+    <a href="#tvare">Tváře</a>
+    <a href="#palmares">Trofeje</a>
+    <a href="#galerie">Galerie</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg" id="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <span class="hero-kicker" id="hero-kicker"></span>
+    <h1 class="hero-name" id="hero-name">Giginka</h1>
+    <button class="a3-badge" id="a3-badge" type="button" aria-label="A3 championka — klikni pro konfety">
+      <span class="a3-rosette" id="a3-rosette" aria-hidden="true"></span>
+      <span class="a3-label">
+        <span class="a3-l1" id="badge-l1">A3</span>
+        <span class="a3-l2" id="badge-l2">CHAMPIONKA</span>
+      </span>
+    </button>
+    <p class="hero-subtitle" id="hero-subtitle"></p>
+    <span class="hero-hint" id="hero-hint">ťukni na mě 🐾</span>
+  </div>
+</section>
+
+<!-- Vizitka / Kdo jsem -->
+<section class="section" id="vizitka">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="kicker">Kdo jsem</span>
+      <h2>Moje <em>vizitka</em></h2>
+      <span class="sub">Oficiální, ověřená, neomylná.</span>
+    </div>
+    <div class="vcard" id="vcard">
+      <div class="vcard-photo">
+        <img id="vcard-img" src="" alt="">
+        <span class="vcard-stamp" id="vcard-stamp"></span>
+      </div>
+      <dl class="vcard-rows" id="vcard-rows"></dl>
+    </div>
+  </div>
+</section>
+
+<!-- Můj příběh -->
+<section class="section band-green" id="pribeh">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="kicker">Můj příběh</span>
+      <h2>Jak jsem se stala <em>legendou</em></h2>
+      <span class="sub">Krok za krokem. Tlapka za tlapkou.</span>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</section>
+
+<!-- Moje mnoho tváří -->
+<section class="section" id="tvare">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="kicker">Moje mnoho tváří</span>
+      <h2>Jedna holka, <em>milion rolí</em></h2>
+      <span class="sub">Sbírej je všechny.</span>
+    </div>
+    <div class="persona-grid" id="persona-grid"></div>
+  </div>
+</section>
+
+<!-- Palmáres / Trofeje -->
+<section class="section band-pink" id="palmares">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="kicker">Palmáres</span>
+      <h2>Síň <em>slávy</em></h2>
+      <span class="sub">Samé odemčené úspěchy.</span>
+    </div>
+    <div class="ach-hero" id="ach-hero">
+      <span class="ach-rosette" id="ach-rosette" aria-hidden="true"></span>
+      <div class="ach-hero-text">
+        <span class="ach-badge">★ ODEMČENO ★</span>
+        <h3 id="ach-title"></h3>
+        <p id="ach-desc"></p>
+      </div>
+    </div>
+    <div class="ach-grid" id="ach-grid"></div>
+  </div>
+</section>
+
+<!-- Galerie -->
+<section class="section" id="galerie">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="kicker">Galerie</span>
+      <h2>Protože jedna fotka <em>nestačí</em></h2>
+      <span class="sub">Klikni pro zvětšení.</span>
+    </div>
+    <div class="gallery" id="gallery"></div>
+    <div class="gallery-more">
+      <button id="gallery-more-btn" type="button">
+        <span id="gallery-more-label">Ukaž víc fotek</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Prohlížeč fotek">
+  <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Zavřít">✕</button>
+  <button class="lightbox-nav lightbox-prev" id="lightbox-prev" type="button" aria-label="Předchozí">‹</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+  <button class="lightbox-nav lightbox-next" id="lightbox-next" type="button" aria-label="Další">›</button>
+  <span class="lightbox-counter" id="lightbox-counter"></span>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="footer-paw" aria-hidden="true">🐾</span>
+    <p class="footer-line" id="footer-line"></p>
+    <span class="footer-meta">© <span id="year"></span> · giginka.cz</span>
+  </div>
+</footer>
+
+<!-- Toast (easter egg) -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
